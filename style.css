@@ -26,13 +26,26 @@ section#tela {
 }
 
 section#icones img {
-    width: 120px;
+    width: 100px;
     margin-left: 12px;
     margin-right: 5px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    
+    border: 2px solid rgb(227, 201, 153);
+    border-radius: 50%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.592);
+    transition: transform 0.2s ease-in;
+}
+
+section#icones img:hover {
+    border: 3px solid rgb(235, 205, 148);
+    transform: translate(-10px, 0px);
+    transition: transform 0.2s ease-out;
 }
 
 section#icones img#primeiro {
-    margin-top: 157px;
+    margin-top: 200px;
 }
 
 section {
