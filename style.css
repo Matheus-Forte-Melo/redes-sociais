@@ -8,7 +8,7 @@ main {
     width: 100vw;
     height: 100vh;
     background-color: aqua;
-    background-image: url(imagens/fundo-madeira.jpg);
+    background-image: url(imagens/fundo-branco.jpg);
 
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -18,7 +18,9 @@ main {
 section#tela {
     width: 310px;
     height: 625px;
-    background-image: url(imagens/frame-iphone.png);
+    background-image: url(imagens/celular.png);
+    background-size: contain;
+    background-repeat: no-repeat;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -32,14 +34,14 @@ section#icones img {
     margin-bottom: 5px;
     box-sizing: border-box;
     
-    border: 2px solid rgb(227, 201, 153);
+    border: 3px solid rgb(11, 11, 10);
     border-radius: 50%;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.592);
     transition: transform 0.2s ease-in;
 }
 
 section#icones img:hover {
-    border: 3px solid rgb(235, 205, 148);
+    border: 4px solid rgb(11, 11, 10);
     transform: translate(-10px, 0px);
     transition: transform 0.2s ease-out;
 }
@@ -56,12 +58,14 @@ img#primeiro {
     margin-top: 0px;
 }
 
+
 section#tela iframe {
     position: absolute;
-    top: 80px;
-    right: 20px;
-    width: 267px;
-    height: 470px;
+    top: 40px;
+    right: 28px;
+    width: 272px;
+    height: 552px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.86);
 }
 
 section#tela iframe::-webkit-scrollbar {
