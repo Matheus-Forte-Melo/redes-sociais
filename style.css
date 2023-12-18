@@ -28,15 +28,18 @@ section#tela {
 }
 
 section#icones img {
-    width: 100px;
-    margin-left: 12px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    box-sizing: border-box;
+    max-width: 100px;
+
+    margin-left: 2%;
+    margin-right: 1%;
+    margin-bottom: 0.25%;
     
+    box-sizing: border-box;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.592);
+
     border: 3px solid rgb(11, 11, 10);
     border-radius: 50%;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.592);
+
     transition: transform 0.2s ease-in;
 }
 
@@ -47,7 +50,7 @@ section#icones img:hover {
 }
 
 section#icones img#primeiro {
-    margin-top: 200px;
+    margin-top: 225px;
 }
 
 section {
